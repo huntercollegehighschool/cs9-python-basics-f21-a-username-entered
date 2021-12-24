@@ -13,4 +13,19 @@ The area of the triangle is 12.0
 
 '''
 
-#start writing your code below
+#I prefer functions
+def calculateTriangleArea(triangleBase, triangleAlt):
+  #triangleBase = int(input("Enter the base: "))
+  #triangleAlt = int(input("Enter the height: "))
+  triangleArea = (triangleBase * triangleAlt) / 2
+  print(triangleArea)
+  return triangleArea
+calculateTriangleArea(14, 3)
+
+
+
+
+#Simpler code
+triangleBase = int(input("Enter the base: "))
+triangleAlt = int(input("Enter the height: "))
+print((triangleBase * triangleAlt) / 2)
